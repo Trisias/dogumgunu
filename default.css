@@ -65,7 +65,7 @@ a {
 /* Saat ve sayaç kutusu */
 #clock-box {
     position: absolute;
-    top: 500x;                  /* Dikey konumu biraz yukarı çektik */
+    top: 475x;                  /* Dikey konumu biraz yukarı çektik */
     left: 290px;                 
     transform: translateX(-50%); /* Elementi tam olarak yatayda ortalar */
     width: 90%;                  /* Genişlik veriyoruz */
@@ -78,7 +78,7 @@ a {
 
 /* Rakamların (gün sayısının) stili */
 #clock .digit {
-    font-size: 80px;      /* Rakamı çok daha büyük ve etkileyici yapalım */
+    font-size: 70px;      /* Rakamı çok daha büyük ve etkileyici yapalım */
     font-weight: 300;     /* Daha ince ve zarif bir görünüm için */
     color: #8b6a60;
     line-height: 1;       /* Satır yüksekliğini azaltarak boşluğu toparlar */
@@ -86,11 +86,11 @@ a {
 
 /* Altyazının (cümlenin) stili */
 .clock-subtitle {
-  font-size: 20px;        /* Yazı boyutunu biraz büyütelim */
+  font-size: 16px;        /* Yazı boyutunu biraz büyütelim */
   color: #8b6a60;
-  margin-top: 10px;       /* Rakamla arasına pozitif bir boşluk koyalım */
+  margin-top: 8px;       /* Rakamla arasına pozitif bir boşluk koyalım */
   font-style: italic;
-  font-weight: 400;
+  font-weight: 350;
   line-height: 1.5;       /* Cümlenin okunabilirliğini artırmak için */
 }
 
